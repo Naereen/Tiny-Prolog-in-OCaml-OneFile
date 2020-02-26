@@ -1,4 +1,4 @@
-# This folder contains the source code of [Tiny-Prolog-in-OCaml](https://github.com/Naereen/Tiny-Prolog-in-OCaml)
+# This folder contains the source code of [Tiny-Prolog-in-OCaml-OneFile](https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile)
 > A tiny implementation of a small subset of the Prolog language, in OCaml. With small and fun examples.
 >
 > WARNING: this project only has an **educational purpose**, for a real-world use of Prolog, please refer to [GNU Prolog (gprolog)](XXX).
@@ -14,8 +14,8 @@
 
 ```bash
 $ cd /tmp/
-$ git clone https://github.com/Naereen/Tiny-Prolog-in-OCaml
-$ cd Tiny-Prolog-in-OCaml
+$ git clone https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile
+$ cd Tiny-Prolog-in-OCaml-OneFile
 $ cd prolog
 $ make prolog
 ocamlc -pp camlp4o -c lib.ml
@@ -65,13 +65,13 @@ cd exemples
 
 ---
 
-### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/Tiny-Prolog-in-OCaml.svg)](https://github.com/Naereen/Tiny-Prolog-in-OCaml/blob/master/LICENSE)
+### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/Tiny-Prolog-in-OCaml-OneFile.svg)](https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/blob/master/LICENSE)
 This (small) repository is published under the terms of the [MIT license](http://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
 © [Lilian Besson](https://GitHub.com/Naereen), 2018.
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml/graphs/commit-activity)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml)
-[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/Tiny-Prolog-in-OCaml/README.md?pixel)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/graphs/commit-activity)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml-OneFile)
+[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/README.md?pixel)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/)
 
 [![made-with-OCaml](https://img.shields.io/badge/Made%20with-OCaml-1f425f.svg)](https://ocaml.org/)
 [![made-for-teaching](https://img.shields.io/badge/Made%20for-Teaching-6800ff.svg)](https://perso.crans.org/besson/teach/)

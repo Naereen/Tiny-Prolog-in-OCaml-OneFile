@@ -5,4 +5,4 @@ all:	send
 
 send:	send_zamok
 send_zamok:
-	CP --exclude=.git ./ ${Szam}publis/Tiny-Prolog-in-OCaml.git/
+	CP --exclude=.git ./ ${Szam}publis/Tiny-Prolog-in-OCaml-OneFile.git/

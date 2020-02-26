@@ -1,4 +1,4 @@
-# Makefile to build https://github.com/Naereen/Tiny-Prolog-in-OCaml
+# Makefile to build https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile
 # (C) 2018 Lilian Besson
 # MIT License, https://lbesson.mit-license.org/
 
