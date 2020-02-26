@@ -18,12 +18,7 @@ $ git clone https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile
 $ cd Tiny-Prolog-in-OCaml-OneFile
 $ cd prolog
 $ make prolog
-ocamlc -pp camlp4o -c lib.ml
-ocamlc on -pp camlp4o -c lib.ml
-ocamlc lib.cmo -c resolution.ml
-ocamlc on lib.cmo -c resolution.ml
-ocamlc -o prolog lib.cmo resolution.cmo prolog.ml
-ocamlc on -o prolog lib.cmo resolution.cmo prolog.ml
+ocamlc -o prolog -pp camlp4o prolog.ml
 $ make clean
 $ file prolog
 prolog: a ocamlrun script executable (binary data)
@@ -33,9 +28,7 @@ prolog: a ocamlrun script executable (binary data)
 
 ## List of files
 - [Makefile](Makefile) defines the rules to build the binary,
-- [`prolog.ml`](prolog.ml) implements (manually) the command line binary (parse input, etc),
-- [`lib.ml`](lib.ml) implements useful functions,
-- [`resolution.ml`](resolution.ml) implements the data structure to manipulate terms, the parsing of a theory file, and the resolution algorithm to answer logical questions on a 0th-order theory.
+- [`prolog.ml`](prolog.ml) implements (manually) the command line binary (parse input, etc), useful functions, and the data structure to manipulate terms, the parsing of a theory file, and the resolution algorithm to answer logical questions on a 0th-order theory.
 
 ---
 

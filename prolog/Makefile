@@ -1,26 +1,14 @@
 # Makefile to build https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile
-# (C) 2018 Lilian Besson
+# (C) 2020 Lilian Besson
 # MIT License, https://lbesson.mit-license.org/
 
 main:	prolog
 
-prolog:	lib.cmo resolution.cmo prolog.ml
-	ocamlc -o prolog lib.cmo resolution.cmo prolog.ml
+prolog:	prolog.ml
+	ocamlc -o prolog -pp camlp4o prolog.ml
 
-resolution.cmo:	resolution.ml
-	ocamlc lib.cmo -c resolution.ml
-
-lib.cmo:	lib.ml
-	ocamlc -pp camlp4o -c lib.ml
-
-prolog.opt:	lib.cmx resolution.cmx prolog.ml
-	ocamlopt -o prolog.opt lib.cmx resolution.cmx prolog.ml
-
-resolution.cmx:	resolution.ml
-	ocamlopt lib.cmx -c resolution.ml
-
-lib.cmx:	lib.ml
-	ocamlopt -pp camlp4o -c lib.ml
+prolog.opt:	prolog.ml
+	ocamlopt -o prolog.opt-pp camlp4o prolog.ml
 
 clean:
 	rm -f *.cm[iox] *~ *.annot *.o
