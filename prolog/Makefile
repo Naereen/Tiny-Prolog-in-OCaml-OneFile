@@ -22,11 +22,8 @@ resolution.cmx:	resolution.ml
 lib.cmx:	lib.ml
 	ocamlopt -pp camlp4o -c lib.ml
 
-mytop:	lib.cmo
-	ocamlmktop -o mytop lib.cmo
-
 clean:
 	rm -f *.cm[iox] *~ *.annot *.o
 
 cleanbuild:
-	prolog mytop prolog.opt
+	prolog prolog.opt
