@@ -4,13 +4,13 @@
 > WARNING: this project only has an **educational purpose**, for a real-world use of Prolog, please refer to [GNU Prolog (gprolog)](XXX).
 
 ## Requirements
-- Have OCaml installed, with camlp4o
-- And GNU Makefile
+- Have [OCaml 4.14+](https://ocaml.org/) installed, with [camlp4o](https://ocaml.org/p/camlp4/4.14%2B1) (install it with `opam install camlp4`);
+- And GNU Makefile.
 
 ## How to build
-- Clone or download the repository,
-- Go in this folder,
-- Run `make`, wait 5 seconds, and :taad: tadaa!
+- Clone or download the repository (`git clone https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/`),
+- Go in this folder (`cd Tiny-Prolog-in-OCaml-OneFile/`),
+- Run `make`, wait 5 seconds, and :tada: tadaa!
 
 ```bash
 $ cd /tmp/
@@ -60,7 +60,7 @@ cd exemples
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/Tiny-Prolog-in-OCaml-OneFile.svg)](https://github.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/blob/master/LICENSE)
 This (small) repository is published under the terms of the [MIT license](http://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
-© [Lilian Besson](https://GitHub.com/Naereen), 2018.
+© [Lilian Besson](https://GitHub.com/Naereen), 2018-2024.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml-OneFile/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/Tiny-Prolog-in-OCaml-OneFile)
